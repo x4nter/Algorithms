@@ -1,4 +1,18 @@
-//Does not work properly yet
+/*Does not work properly yet
+Test Input:
+8 11
+0 2 2
+2 7 5
+7 5 7
+0 4 5
+2 3 8
+1 5 10
+4 6 3
+6 3 2
+3 5 5
+4 1 4
+1 3 4
+*/
 #include <iostream>
 #include <vector>
 #include <climits>
