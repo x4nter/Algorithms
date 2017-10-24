@@ -25,7 +25,7 @@ vector<int> dijkstra(vector<vector<int>> graph, int srcNode){
         int curNode;
         for(int i = 0; i < length; i++){
             int min = INT_MAX;
-            if(dist[i] < min){
+            if(dist[i] < min && !visited[i]){
                 min = dist[i];
                 curNode = i;
             }
