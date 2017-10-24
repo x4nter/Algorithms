@@ -5,7 +5,7 @@
 using namespace std;
 
 bool allTrue(vector<bool>* v){
-    bool b;
+    bool b = true;
     for(int i = 0; i < v->size(); i++){
         if(!&v[i]){
             b = false;
