@@ -1,3 +1,9 @@
+//Algorithm Type: Iterative
+//Efficiency: O(n^2)
+//How it works:
+//-loop through the array
+//-look at each element and insert it in the correct place
+
 #include <iostream>
 #include <utility>
 
