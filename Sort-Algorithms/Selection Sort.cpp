@@ -1,3 +1,10 @@
+//Algorithm Type: Iterative
+//Efficiency: O(n^2)
+//How it works:
+//-loop through the array and find the next minimum value
+//-swap the element starting with the first index
+//-repeat the steps for next indices
+
 #include <iostream>
 #include <utility>
 
