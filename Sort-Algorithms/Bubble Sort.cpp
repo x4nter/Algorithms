@@ -1,3 +1,9 @@
+//Algorithm Type: Iterative
+//Efficiency: O(n^2)
+//How it works:
+//-loop through the array, if two consecutive elements are in the wrong position swap them.
+//-loop n * (n-1) to sort the whole array
+
 #include <iostream>
 #include <utility>
 
